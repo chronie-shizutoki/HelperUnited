@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">HelperUnited</string>
+    <string name="game_genshin_name">Genshin Impact</string>
+    <string name="game_starrail_name">Honkai: Star Rail</string>
+    <string name="game_zenlesszone_name">Zenless Zone Zero</string>
 </resources>
