@@ -9,6 +9,7 @@ appcompat = "1.7.1"
 material = "1.13.0"
 spotless = "8.4.0"
 ktlint = "1.8.0"
+miuix = "0.8.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -19,6 +20,8 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 gradlePlugin-kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
 ktlint = { group = "com.pinterest.ktlint", name = "ktlint-cli", version.ref = "ktlint" }
+miuix = { group = "top.yukonga.miuix.kmp", name = "miuix-android", version.ref = "miuix" }
+miuix-icons = { group = "top.yukonga.miuix.kmp", name = "miuix-icons-android", version.ref = "miuix" }
 
 [plugins]
 spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
